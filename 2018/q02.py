@@ -13,12 +13,6 @@ def a(data):
       threes +=1
   return twos*threes
 
-def b_theirs(data):
-    for a, b in combinations(data.split(), 2):
-      s = "".join([x for x, y in zip(a, b) if x == y])
-      if len(s) == len(a) - 1:
-          return s
-
 def b(data):
     strings = data.split()
     for i in range(len(strings)):
