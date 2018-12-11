@@ -29,5 +29,5 @@ def a(data):
 def b(data):
   return helper(data)[1]
 
-print(a(data))
-print(b(data))
+print(a(data)) #110389
+print(b(data)) #552
